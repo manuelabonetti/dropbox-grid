@@ -1,0 +1,37 @@
+# Kriterien Responsive HTML/CSS Prüfung
+1. HTML / CSS Dateien korrekt angelegt inkl. Ordner Struktur
+2. Elementare Tags im HTML Code vorhanden
+3. HTML Code ist übersichtlich und geordnet
+4. CSS Anweisungen sind übersichtlich und geordnet
+5. Inhaltsbeschreibende HTML Tags angewendet
+6. Sinnvolle Kommentare in HTML / CSS vorhanden
+7. Inhaltsbezogene Klassennamen verwendet
+8. Boxmodell verstanden
+9. Globale Typographie Styles sind vorhanden im CSS 
+10. Webfont korrekt eingebunden und angewendet (z.B. Google Fonts)
+11. Wrapper Pattern korrekt angelegt und angewendet 
+12. 11. Floating / Clearing korrekt angewendet
+13. CSS Grid Pattern korrekt angelegt und angewendet
+14. Grid System ist mit Media Queries angereichert -> Responsive Styles
+15. Media Query Breakpoints machen Sinn 
+
+Bonus:
+* Randabfallendes Header Bild
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
