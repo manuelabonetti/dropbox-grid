@@ -1,7 +1,6 @@
 /* ========= FONT =========
 font-family: 'Montserrat', sans-serif; */
 
-
 /* ========= COLORS =========
 blue #0061ff
 grey #637381
@@ -21,7 +20,6 @@ HTML 5	ARIA Role
 none	role="search"
 <form>	role="form" */
 
-
 /* ========= GLOBALE TYPOGRAFIE STYLES ========= */
 html {
   font-family: 'Montserrat', sans-serif;
@@ -35,7 +33,6 @@ h1, h2 {
 }
 
 p {
-  /* color: inherit; */
   font-weight: 300;
   text-decoration: none;
   line-height: 1.5;
@@ -43,7 +40,6 @@ p {
 }
 
 a {
-  /* color: inherit; */
   font-weight: 300;
   text-decoration: underline;
   line-height: 1.5;
@@ -69,8 +65,6 @@ h3 {
   line-height: 1.5;
   color: black;
 }
-
-
 
 * {
   box-sizing: border-box;
@@ -105,7 +99,6 @@ body {
 }
 
 .logo_pos {
-  /* float: left; */
   margin-left: 20px;
 }
 
@@ -151,7 +144,6 @@ body {
   padding-right: 30px;
 }
 
-
 /* ========= MAIN ========= */
 
 .start {
@@ -196,7 +188,6 @@ body {
 }
 
 /* 12er Block */
-
 .grid-container-box12 {
   display: grid;
   grid-column-gap: 30px;
@@ -207,7 +198,6 @@ body {
     'box7-12 box8-12 box9-12'
     'box10-12 box11-12 box12-12';
 }
-
 
 .box1-12, .box2-12, .box3-12,
 .box4-12, .box5-12, .box6-12,
@@ -264,12 +254,8 @@ body {
   grid-area: box12-12;
 }
 
-
 /* Higher productivity */
-
 .wrapper-flex {
-  /* max-width: 1300px;
-  min-width: 1080px; */
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -331,7 +317,6 @@ body {
 }
 
 .grid-container-blue {
-  /* height: 405px; */
   display: grid;
   grid-column-gap: 30px;
   grid-template-areas:
@@ -391,10 +376,7 @@ body {
   display: inline-block;
 }
 
-
-
 /* ========= FOOTER BLACK ========= */
-
 .bg-black {
   background-color: black;
 }
@@ -430,51 +412,6 @@ body {
   grid-area: box-6-6;
 }
 
-
-/* .grid-container-6er {
-  display: grid;
-  grid-column-gap: 10px;
-  grid-row-gap: 100px;
-  grid-template-areas:
-    'list-1 list-2 list-3 list-4 list-5 list-6';
-}
-
-.list-1 {
-  grid-area: list-1;
-}
-
-.list-2 {
-  grid-area: list-2;
-}
-
-.list-3 {
-  grid-area: list-3;
-}
-
-.list-4 {
-  grid-area: list-4;
-}
-
-.list-5 {
-  grid-area: list-5;
-}
-
-.list-6 {
-  grid-area: list-6;
-}
-
-.text-white {
-  color: white;
-}
-
-.list-1 a, .list-2 a, .list-3 a,
-.list-4 a, .list-5 a, .list-6 a {
-  text-align: left;
-  color: white;
-  text-decoration: none;
-  list-style: none;
-} */
-
 .footer-list {
   padding-left: 0;
   font-size: 13px;
@@ -491,9 +428,7 @@ body {
   margin-top: 60px;
 }
 
-
-/* ========= RESPONSIV GRID LAYOUT ========= */
-
+/* ========= RESPONSIVE GRID LAYOUT ========= */
 @media (max-width: 1000px) {
   .grid-container-4er {
     display: grid;
@@ -552,7 +487,6 @@ body {
 }
 
 @media (max-width: 600px) {
-
   .grid-container-6er {
     display: grid;
     grid-column-gap: 10px;
